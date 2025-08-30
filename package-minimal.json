@@ -1,0 +1,30 @@
+{
+  "name": "nestfest-minimal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.0",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "validator": "^13.15.15",
+    "zod": "^4.1.1",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/validator": "^13.15.2",
+    "typescript": "^5"
+  }
+}

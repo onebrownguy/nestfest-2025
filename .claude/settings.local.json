@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "Bash(openssl rand:*)",
+      "Bash(curl:*)",
+      "Bash(POSTGRES_URL=\"postgres://postgres.tljaenqeyvctmztirnkr:uuiXJg4sCKYmddIv@aws-1-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x\" npm run db:push)",
+      "Bash(vercel:*)",
+      "Bash(psql:*)",
+      "WebFetch(domain:vercel.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:stackoverflow.com)",
+      "Bash(echo:*)",
+      "Bash(./setup-production.sh)",
+      "Bash(chmod:*)",
+      "Bash(./setup-custom-domain.sh:*)",
+      "Bash(nslookup:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
