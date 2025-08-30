@@ -9,8 +9,10 @@ export function LandingNavbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { name: 'Pitch', href: '#about' },
-    { name: 'Get Connected', href: '#register' },
+    { name: 'About', href: '#about' },
+    { name: 'Features', href: '#features' },
+    { name: 'Live Voting', href: '/live' },
+    { name: 'Register', href: '#register' },
   ]
 
   return (
@@ -38,19 +40,34 @@ export function LandingNavbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.map((item, index) => (
-              <motion.a
-                key={item.name}
-                href={item.href}
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1 * index }}
-                whileHover={{ y: -2 }}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-              >
-                {item.name}
-              </motion.a>
-            ))}
+            {navItems.map((item, index) => {
+              const isExternal = item.href.startsWith('/')
+              return isExternal ? (
+                <Link key={item.name} href={item.href}>
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 * index }}
+                    whileHover={{ y: -2 }}
+                    className="text-gray-700 hover:text-blue-600 font-medium transition-colors cursor-pointer"
+                  >
+                    {item.name}
+                  </motion.div>
+                </Link>
+              ) : (
+                <motion.a
+                  key={item.name}
+                  href={item.href}
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 * index }}
+                  whileHover={{ y: -2 }}
+                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                >
+                  {item.name}
+                </motion.a>
+              )
+            })}
             
             <Link href="/register">
               <motion.button
@@ -84,16 +101,28 @@ export function LandingNavbar() {
           className="md:hidden overflow-hidden"
         >
           <div className="py-4 space-y-2">
-            {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-50 rounded-lg"
-              >
-                {item.name}
-              </a>
-            ))}
+            {navItems.map((item) => {
+              const isExternal = item.href.startsWith('/')
+              return isExternal ? (
+                <Link key={item.name} href={item.href}>
+                  <div
+                    onClick={() => setIsOpen(false)}
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-50 rounded-lg cursor-pointer"
+                  >
+                    {item.name}
+                  </div>
+                </Link>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className="block px-4 py-2 text-gray-700 hover:bg-gray-50 rounded-lg"
+                >
+                  {item.name}
+                </a>
+              )
+            })}
             <Link href="/register">
               <button className="w-full mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg font-medium">
                 Register
