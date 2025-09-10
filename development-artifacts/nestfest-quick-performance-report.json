@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-09-03T00:39:08.651Z",
+  "summary": {
+    "totalPagesTest": 5,
+    "totalImagesTest": 2,
+    "totalErrors": 0,
+    "averageTtfb": 202,
+    "averageLoadTime": 203
+  },
+  "results": [
+    {
+      "url": "https://nestfest.app/",
+      "status": 200,
+      "ttfb": 238,
+      "totalTime": 240,
+      "contentLength": 20280,
+      "contentType": "text/html; charset=utf-8",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "etag": "\"9e971f701a069f2de30b87a3d2d7e2fe\"",
+      "timestamp": "2025-09-03T00:39:07.696Z",
+      "pageName": "Homepage"
+    },
+    {
+      "url": "https://nestfest.app/about",
+      "status": 200,
+      "ttfb": 198,
+      "totalTime": 198,
+      "contentLength": 14936,
+      "contentType": "text/html; charset=utf-8",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "etag": "\"2d73910f245034838a8a7b95e9ceffd1\"",
+      "timestamp": "2025-09-03T00:39:07.899Z",
+      "pageName": "About"
+    },
+    {
+      "url": "https://nestfest.app/register",
+      "status": 200,
+      "ttfb": 173,
+      "totalTime": 173,
+      "contentLength": 14096,
+      "contentType": "text/html; charset=utf-8",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "etag": "\"917751f8caf8cf905d292f0b16cadbc2\"",
+      "timestamp": "2025-09-03T00:39:08.073Z",
+      "pageName": "Registration"
+    },
+    {
+      "url": "https://nestfest.app/terms",
+      "status": 200,
+      "ttfb": 219,
+      "totalTime": 219,
+      "contentLength": 15762,
+      "contentType": "text/html; charset=utf-8",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "etag": "\"2505de00189ff5b7f871d94f79193a3b\"",
+      "timestamp": "2025-09-03T00:39:08.293Z",
+      "pageName": "Terms"
+    },
+    {
+      "url": "https://nestfest.app/privacy",
+      "status": 200,
+      "ttfb": 183,
+      "totalTime": 183,
+      "contentLength": 14085,
+      "contentType": "text/html; charset=utf-8",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "etag": "\"0acf77863b9c5d64845e44b7c60ac726\"",
+      "timestamp": "2025-09-03T00:39:08.477Z",
+      "pageName": "Privacy"
+    },
+    {
+      "url": "https://nestfest.app/acc-campus-hero.jpg",
+      "status": 200,
+      "ttfb": 34,
+      "totalTime": 74,
+      "contentLength": 703489,
+      "contentType": "image/jpeg",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "lastModified": "Wed, 03 Sep 2025 00:23:02 GMT",
+      "etag": "\"b1aa2fd24a128ae8801152e1ff0a3085\"",
+      "timestamp": "2025-09-03T00:39:08.552Z",
+      "pageName": "Image: /acc-campus-hero.jpg",
+      "assetType": "image"
+    },
+    {
+      "url": "https://nestfest.app/spatial-nest.png",
+      "status": 200,
+      "ttfb": 37,
+      "totalTime": 97,
+      "contentLength": 2082361,
+      "contentType": "image/png",
+      "server": "Vercel",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "lastModified": "Wed, 03 Sep 2025 00:23:02 GMT",
+      "etag": "\"a9fd1b3054b9537c53c83bae33454d17\"",
+      "timestamp": "2025-09-03T00:39:08.649Z",
+      "pageName": "Image: /spatial-nest.png",
+      "assetType": "image"
+    }
+  ],
+  "analysis": {
+    "performance": {
+      "averageLoadTime": 203,
+      "averageTtfb": 202,
+      "fastestPage": {
+        "url": "https://nestfest.app/register",
+        "status": 200,
+        "ttfb": 173,
+        "totalTime": 173,
+        "contentLength": 14096,
+        "contentType": "text/html; charset=utf-8",
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "\"917751f8caf8cf905d292f0b16cadbc2\"",
+        "timestamp": "2025-09-03T00:39:08.073Z",
+        "pageName": "Registration"
+      },
+      "slowestPage": {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "ttfb": 238,
+        "totalTime": 240,
+        "contentLength": 20280,
+        "contentType": "text/html; charset=utf-8",
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "\"9e971f701a069f2de30b87a3d2d7e2fe\"",
+        "timestamp": "2025-09-03T00:39:07.696Z",
+        "pageName": "Homepage"
+      }
+    },
+    "images": {
+      "totalSize": 2785850,
+      "averageLoadTime": 86,
+      "largestImage": {
+        "url": "https://nestfest.app/spatial-nest.png",
+        "status": 200,
+        "ttfb": 37,
+        "totalTime": 97,
+        "contentLength": 2082361,
+        "contentType": "image/png",
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "lastModified": "Wed, 03 Sep 2025 00:23:02 GMT",
+        "etag": "\"a9fd1b3054b9537c53c83bae33454d17\"",
+        "timestamp": "2025-09-03T00:39:08.649Z",
+        "pageName": "Image: /spatial-nest.png",
+        "assetType": "image"
+      }
+    },
+    "grades": {
+      "pages": [
+        {
+          "name": "Homepage",
+          "grade": "100.0"
+        },
+        {
+          "name": "About",
+          "grade": "100.0"
+        },
+        {
+          "name": "Registration",
+          "grade": "100.0"
+        },
+        {
+          "name": "Terms",
+          "grade": "100.0"
+        },
+        {
+          "name": "Privacy",
+          "grade": "100.0"
+        }
+      ],
+      "overall": "100.0"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-09-02T00:29:47.725Z",
+  "url": "https://nestfest.app",
+  "consoleErrors": [],
+  "networkErrors": [],
+  "accCampusImageFound": true,
+  "accCampusImageStatus": 200,
+  "heroImageInfo": {
+    "heroSectionFound": true,
+    "heroImageFound": true,
+    "heroImageSrc": "https://nestfest.app/_next/image?url=%2Facc-campus-hero.jpg&w=3840&q=75&dpl=dpl_4sfPLRSNXTmrXT8hSdbNWnFULgAY",
+    "heroImageAlt": "Austin Community College Campus - Modern Architecture",
+    "heroImageComplete": true,
+    "heroImageNaturalSize": "1920x1047",
+    "heroImageDisplaySize": "1905x1065",
+    "allImages": [
+      {
+        "src": "https://nestfest.app/_next/image?url=%2Facc-campus-hero.jpg&w=3840&q=75&dpl=dpl_4sfPLRSNXTmrXT8hSdbNWnFULgAY",
+        "alt": "Austin Community College Campus - Modern Architecture",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1047,
+        "width": 1905,
+        "height": 1065,
+        "loading": "auto",
+        "className": "object-cover object-center transition-opacity duration-1000"
+      }
+    ],
+    "totalImages": 1,
+    "loadedImages": 1
+  },
+  "performanceMetrics": {
+    "domContentLoaded": null,
+    "loadComplete": null,
+    "firstPaint": 448,
+    "firstContentfulPaint": 448
+  },
+  "totalNetworkRequests": 16,
+  "failedRequests": 0,
+  "imageRequests": 1
+}

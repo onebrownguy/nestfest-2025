@@ -1,0 +1,81 @@
+{
+  "testSuite": "NestFest Email Integration Tests",
+  "timestamp": "2025-09-01T03:03:38.060Z",
+  "environment": "development",
+  "configuration": {
+    "testEmail": "rinconabel@gmail.com",
+    "adminEmail": "admin@edge-team.org",
+    "baseUrl": "http://localhost:3001",
+    "endpoints": {
+      "register": "/api/auth/register",
+      "passwordReset": "/api/email/password-reset",
+      "welcome": "/api/email/welcome",
+      "emailVerification": "/api/email/verify",
+      "competitionNotification": "/api/email/competition-notification",
+      "health": "/api/email/health"
+    }
+  },
+  "summary": {
+    "total": 8,
+    "passed": 6,
+    "failed": 2,
+    "successRate": 75
+  },
+  "tests": [
+    {
+      "name": "Email Service Health Check",
+      "success": false,
+      "timestamp": "2025-09-01T03:03:04.100Z",
+      "details": "Command failed: curl -X GET \"http://localhost:3001/api/email/health\" -H Content-Type: application/json\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0\r100  8576    0  8576    0     0   1267      0 --:--:--  0:00:06 --:--:--  1888\r\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0curl: (6) Could not resolve host: application\r\n"
+    },
+    {
+      "name": "Gmail CLI Integration",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:07.430Z",
+      "details": "Message sent with ID: 199033a771d131fb"
+    },
+    {
+      "name": "User Registration API",
+      "success": false,
+      "timestamp": "2025-09-01T03:03:15.337Z",
+      "details": "Command failed: curl -X POST \"http://localhost:3001/api/auth/register\" -H Content-Type: application/json -d '{\"email\":\"test+1756695787430@example.com\",\"password\":\"TestPassword123!\",\"name\":\"Test User\",\"role\":\"student\"}'\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    94    0     0  100    94      0     76  0:00:01  0:00:01 --:--:--    76\r100    94    0     0  100    94      0     42  0:00:02  0:00:02 --:--:--    42\r100    94    0     0  100    94      0     28  0:00:03  0:00:03 --:--:--    28\r100    94    0     0  100    94      0     22  0:00:04  0:00:04 --:--:--    22\r100  7564  100  7470  100    94   1465     18  0:00:05  0:00:05 --:--:--  1484\r\n  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0curl: (6) Could not resolve host: application\r\n"
+    },
+    {
+      "name": "Password Reset Email Simulation",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:21.804Z",
+      "details": "Password reset email sent via Gmail CLI"
+    },
+    {
+      "name": "Welcome Email Simulation",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:24.929Z",
+      "details": "Welcome email sent via Gmail CLI"
+    },
+    {
+      "name": "Competition Notification Email Simulation",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:28.713Z",
+      "details": "Competition notification sent via Gmail CLI"
+    },
+    {
+      "name": "Admin Notification Email Simulation",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:31.882Z",
+      "details": "Admin notification sent via Gmail CLI"
+    },
+    {
+      "name": "Bulk Email Capability Test",
+      "success": true,
+      "timestamp": "2025-09-01T03:03:38.059Z",
+      "details": "Bulk emails sent to 2 recipients"
+    }
+  ],
+  "recommendations": [
+    "Configure SendGrid environment variables for production email service",
+    "Gmail CLI integration is working - can be used as fallback email service",
+    "Set up proper email templates in SendGrid for production",
+    "Configure email webhook handling for delivery tracking",
+    "Implement email queue system for high-volume notifications"
+  ]
+}

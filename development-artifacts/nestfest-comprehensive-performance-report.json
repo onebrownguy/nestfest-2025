@@ -1,0 +1,691 @@
+{
+  "pages": [
+    {
+      "pageName": "Homepage",
+      "url": "https://nestfest.app/",
+      "status": 200,
+      "testRuns": 3,
+      "averages": {
+        "totalTime": 163,
+        "ttfb": 156,
+        "contentDownloadTime": 6,
+        "contentLength": 4902
+      },
+      "best": {
+        "totalTime": 43,
+        "ttfb": 40
+      },
+      "worst": {
+        "totalTime": 397,
+        "ttfb": 385
+      },
+      "serverHeaders": {
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+      },
+      "resourceCounts": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "images": 0,
+        "fonts": 0,
+        "totalElements": 0
+      },
+      "compressionSavings": {
+        "encoding": "br",
+        "originalSize": 4902,
+        "compressedSize": 4902,
+        "savings": 0
+      },
+      "performance": {
+        "grade": 100,
+        "recommendations": []
+      },
+      "consistency": {
+        "ttfbVariance": 345,
+        "totalTimeVariance": 354
+      },
+      "timestamp": "2025-09-03T00:43:27.865Z"
+    },
+    {
+      "pageName": "About",
+      "url": "https://nestfest.app/about",
+      "status": 200,
+      "testRuns": 3,
+      "averages": {
+        "totalTime": 46,
+        "ttfb": 44,
+        "contentDownloadTime": 2,
+        "contentLength": 4421
+      },
+      "best": {
+        "totalTime": 43,
+        "ttfb": 41
+      },
+      "worst": {
+        "totalTime": 49,
+        "ttfb": 46
+      },
+      "serverHeaders": {
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "W/\"2d73910f245034838a8a7b95e9ceffd1\""
+      },
+      "resourceCounts": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "images": 0,
+        "fonts": 0,
+        "totalElements": 0
+      },
+      "compressionSavings": {
+        "encoding": "br",
+        "originalSize": 4421,
+        "compressedSize": 4421,
+        "savings": 0
+      },
+      "performance": {
+        "grade": 100,
+        "recommendations": []
+      },
+      "consistency": {
+        "ttfbVariance": 5,
+        "totalTimeVariance": 6
+      },
+      "timestamp": "2025-09-03T00:43:28.332Z"
+    },
+    {
+      "pageName": "Registration",
+      "url": "https://nestfest.app/register",
+      "status": 200,
+      "testRuns": 3,
+      "averages": {
+        "totalTime": 43,
+        "ttfb": 41,
+        "contentDownloadTime": 2,
+        "contentLength": 3906
+      },
+      "best": {
+        "totalTime": 39,
+        "ttfb": 38
+      },
+      "worst": {
+        "totalTime": 46,
+        "ttfb": 44
+      },
+      "serverHeaders": {
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "W/\"917751f8caf8cf905d292f0b16cadbc2\""
+      },
+      "resourceCounts": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "images": 0,
+        "fonts": 0,
+        "totalElements": 0
+      },
+      "compressionSavings": {
+        "encoding": "br",
+        "originalSize": 3906,
+        "compressedSize": 3906,
+        "savings": 0
+      },
+      "performance": {
+        "grade": 100,
+        "recommendations": []
+      },
+      "consistency": {
+        "ttfbVariance": 6,
+        "totalTimeVariance": 7
+      },
+      "timestamp": "2025-09-03T00:43:28.799Z"
+    },
+    {
+      "pageName": "Terms",
+      "url": "https://nestfest.app/terms",
+      "status": 200,
+      "testRuns": 3,
+      "averages": {
+        "totalTime": 41,
+        "ttfb": 39,
+        "contentDownloadTime": 2,
+        "contentLength": 4947
+      },
+      "best": {
+        "totalTime": 37,
+        "ttfb": 35
+      },
+      "worst": {
+        "totalTime": 45,
+        "ttfb": 43
+      },
+      "serverHeaders": {
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "W/\"2505de00189ff5b7f871d94f79193a3b\""
+      },
+      "resourceCounts": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "images": 0,
+        "fonts": 0,
+        "totalElements": 0
+      },
+      "compressionSavings": {
+        "encoding": "br",
+        "originalSize": 4947,
+        "compressedSize": 4947,
+        "savings": 0
+      },
+      "performance": {
+        "grade": 100,
+        "recommendations": []
+      },
+      "consistency": {
+        "ttfbVariance": 8,
+        "totalTimeVariance": 8
+      },
+      "timestamp": "2025-09-03T00:43:29.252Z"
+    },
+    {
+      "pageName": "Privacy",
+      "url": "https://nestfest.app/privacy",
+      "status": 200,
+      "testRuns": 3,
+      "averages": {
+        "totalTime": 43,
+        "ttfb": 41,
+        "contentDownloadTime": 1,
+        "contentLength": 4522
+      },
+      "best": {
+        "totalTime": 37,
+        "ttfb": 36
+      },
+      "worst": {
+        "totalTime": 50,
+        "ttfb": 49
+      },
+      "serverHeaders": {
+        "server": "Vercel",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "etag": "W/\"0acf77863b9c5d64845e44b7c60ac726\""
+      },
+      "resourceCounts": {
+        "scripts": 0,
+        "stylesheets": 0,
+        "images": 0,
+        "fonts": 0,
+        "totalElements": 0
+      },
+      "compressionSavings": {
+        "encoding": "br",
+        "originalSize": 4522,
+        "compressedSize": 4522,
+        "savings": 0
+      },
+      "performance": {
+        "grade": 100,
+        "recommendations": []
+      },
+      "consistency": {
+        "ttfbVariance": 13,
+        "totalTimeVariance": 13
+      },
+      "timestamp": "2025-09-03T00:43:29.705Z"
+    }
+  ],
+  "images": [
+    {
+      "name": "Campus Hero",
+      "path": "/acc-campus-hero.jpg",
+      "url": "https://nestfest.app/acc-campus-hero.jpg",
+      "status": 200,
+      "testRuns": 2,
+      "averages": {
+        "totalTime": 244,
+        "ttfb": 158,
+        "contentLength": 703489
+      },
+      "best": {
+        "totalTime": 242
+      },
+      "worst": {
+        "totalTime": 245
+      },
+      "contentType": "image/jpeg",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "optimization": {
+        "sizeKB": 687,
+        "format": "image/jpeg",
+        "optimizationScore": 75,
+        "recommendations": [
+          "Image is large (>500KB)",
+          "Consider modern formats (WebP/AVIF)"
+        ]
+      },
+      "performance": {
+        "grade": 85,
+        "recommendations": [
+          {
+            "type": "critical",
+            "issue": "Large image file",
+            "current": "687KB",
+            "target": "<300KB",
+            "solution": "Compress image, use appropriate dimensions",
+            "source": "Image: Campus Hero"
+          },
+          {
+            "type": "suggested",
+            "issue": "Legacy image format",
+            "current": "image/jpeg",
+            "target": "WebP or AVIF",
+            "solution": "Convert to modern image format",
+            "source": "Image: Campus Hero"
+          }
+        ]
+      },
+      "timestamp": "2025-09-03T00:43:30.301Z"
+    },
+    {
+      "name": "Spatial Nest",
+      "path": "/spatial-nest.png",
+      "url": "https://nestfest.app/spatial-nest.png",
+      "status": 200,
+      "testRuns": 2,
+      "averages": {
+        "totalTime": 376,
+        "ttfb": 150,
+        "contentLength": 2082361
+      },
+      "best": {
+        "totalTime": 338
+      },
+      "worst": {
+        "totalTime": 413
+      },
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "optimization": {
+        "sizeKB": 2034,
+        "format": "image/png",
+        "optimizationScore": 60,
+        "recommendations": [
+          "Image is very large (>1MB)",
+          "Consider modern formats (WebP/AVIF)"
+        ]
+      },
+      "performance": {
+        "grade": 75,
+        "recommendations": [
+          {
+            "type": "critical",
+            "issue": "Large image file",
+            "current": "2034KB",
+            "target": "<300KB",
+            "solution": "Compress image, use appropriate dimensions",
+            "source": "Image: Spatial Nest"
+          },
+          {
+            "type": "suggested",
+            "issue": "Legacy image format",
+            "current": "image/png",
+            "target": "WebP or AVIF",
+            "solution": "Convert to modern image format",
+            "source": "Image: Spatial Nest"
+          }
+        ]
+      },
+      "timestamp": "2025-09-03T00:43:31.170Z"
+    }
+  ],
+  "summary": {
+    "testLocation": "arincon (win32)",
+    "testTimestamp": "2025-09-03T00:43:27.016Z",
+    "pages": {
+      "count": 5,
+      "avgLoadTime": 67,
+      "avgTtfb": 64,
+      "totalSize": 22,
+      "avgGrade": 100,
+      "fastestPage": {
+        "pageName": "Terms",
+        "url": "https://nestfest.app/terms",
+        "status": 200,
+        "testRuns": 3,
+        "averages": {
+          "totalTime": 41,
+          "ttfb": 39,
+          "contentDownloadTime": 2,
+          "contentLength": 4947
+        },
+        "best": {
+          "totalTime": 37,
+          "ttfb": 35
+        },
+        "worst": {
+          "totalTime": 45,
+          "ttfb": 43
+        },
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"2505de00189ff5b7f871d94f79193a3b\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4947,
+          "compressedSize": 4947,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "consistency": {
+          "ttfbVariance": 8,
+          "totalTimeVariance": 8
+        },
+        "timestamp": "2025-09-03T00:43:29.252Z"
+      },
+      "slowestPage": {
+        "pageName": "Homepage",
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "testRuns": 3,
+        "averages": {
+          "totalTime": 163,
+          "ttfb": 156,
+          "contentDownloadTime": 6,
+          "contentLength": 4902
+        },
+        "best": {
+          "totalTime": 43,
+          "ttfb": 40
+        },
+        "worst": {
+          "totalTime": 397,
+          "ttfb": 385
+        },
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "consistency": {
+          "ttfbVariance": 345,
+          "totalTimeVariance": 354
+        },
+        "timestamp": "2025-09-03T00:43:27.865Z"
+      }
+    },
+    "images": {
+      "count": 2,
+      "avgLoadTime": 310,
+      "totalSize": 2721,
+      "avgGrade": 80,
+      "largestImage": {
+        "name": "Spatial Nest",
+        "path": "/spatial-nest.png",
+        "url": "https://nestfest.app/spatial-nest.png",
+        "status": 200,
+        "testRuns": 2,
+        "averages": {
+          "totalTime": 376,
+          "ttfb": 150,
+          "contentLength": 2082361
+        },
+        "best": {
+          "totalTime": 338
+        },
+        "worst": {
+          "totalTime": 413
+        },
+        "contentType": "image/png",
+        "cacheControl": "public, max-age=0, must-revalidate",
+        "optimization": {
+          "sizeKB": 2034,
+          "format": "image/png",
+          "optimizationScore": 60,
+          "recommendations": [
+            "Image is very large (>1MB)",
+            "Consider modern formats (WebP/AVIF)"
+          ]
+        },
+        "performance": {
+          "grade": 75,
+          "recommendations": [
+            {
+              "type": "critical",
+              "issue": "Large image file",
+              "current": "2034KB",
+              "target": "<300KB",
+              "solution": "Compress image, use appropriate dimensions",
+              "source": "Image: Spatial Nest"
+            },
+            {
+              "type": "suggested",
+              "issue": "Legacy image format",
+              "current": "image/png",
+              "target": "WebP or AVIF",
+              "solution": "Convert to modern image format",
+              "source": "Image: Spatial Nest"
+            }
+          ]
+        },
+        "timestamp": "2025-09-03T00:43:31.170Z"
+      }
+    }
+  },
+  "timestamp": "2025-09-03T00:43:27.016Z",
+  "concurrentLoad": {
+    "totalBatchTime": 160,
+    "successfulRequests": 5,
+    "averageResponseTime": 127,
+    "maxResponseTime": 146,
+    "minResponseTime": 72,
+    "variance": 74,
+    "results": [
+      {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "totalTime": 72,
+        "ttfb": 71,
+        "contentDownloadTime": 1,
+        "dnsLookupTime": 0,
+        "connectionTime": 0,
+        "sslHandshakeTime": 0,
+        "contentLength": 4902,
+        "contentType": "text/html; charset=utf-8",
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "timestamp": "2025-09-03T00:43:31.245Z"
+      },
+      {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "totalTime": 140,
+        "ttfb": 138,
+        "contentDownloadTime": 2,
+        "dnsLookupTime": 1,
+        "connectionTime": 10,
+        "sslHandshakeTime": 66,
+        "contentLength": 4902,
+        "contentType": "text/html; charset=utf-8",
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "timestamp": "2025-09-03T00:43:31.312Z"
+      },
+      {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "totalTime": 146,
+        "ttfb": 145,
+        "contentDownloadTime": 1,
+        "dnsLookupTime": 2,
+        "connectionTime": 13,
+        "sslHandshakeTime": 69,
+        "contentLength": 4902,
+        "contentType": "text/html; charset=utf-8",
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "timestamp": "2025-09-03T00:43:31.325Z"
+      },
+      {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "totalTime": 139,
+        "ttfb": 138,
+        "contentDownloadTime": 1,
+        "dnsLookupTime": 2,
+        "connectionTime": 10,
+        "sslHandshakeTime": 67,
+        "contentLength": 4902,
+        "contentType": "text/html; charset=utf-8",
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "timestamp": "2025-09-03T00:43:31.327Z"
+      },
+      {
+        "url": "https://nestfest.app/",
+        "status": 200,
+        "totalTime": 138,
+        "ttfb": 136,
+        "contentDownloadTime": 2,
+        "dnsLookupTime": 2,
+        "connectionTime": 13,
+        "sslHandshakeTime": 69,
+        "contentLength": 4902,
+        "contentType": "text/html; charset=utf-8",
+        "serverHeaders": {
+          "server": "Vercel",
+          "cacheControl": "public, max-age=0, must-revalidate",
+          "etag": "W/\"9e971f701a069f2de30b87a3d2d7e2fe\""
+        },
+        "resourceCounts": {
+          "scripts": 0,
+          "stylesheets": 0,
+          "images": 0,
+          "fonts": 0,
+          "totalElements": 0
+        },
+        "compressionSavings": {
+          "encoding": "br",
+          "originalSize": 4902,
+          "compressedSize": 4902,
+          "savings": 0
+        },
+        "performance": {
+          "grade": 100,
+          "recommendations": []
+        },
+        "timestamp": "2025-09-03T00:43:31.332Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-09-03T00:41:21.669Z",
+  "testType": "Core Web Vitals",
+  "summary": {
+    "totalPages": 5,
+    "successfulTests": 0,
+    "failedTests": 5,
+    "averages": {
+      "ttfb": null,
+      "fcp": null,
+      "lcp": null,
+      "cls": null
+    }
+  },
+  "results": [
+    {
+      "pageName": "Homepage",
+      "url": "https://nestfest.app/",
+      "error": "page.waitForTimeout is not a function",
+      "timestamp": "2025-09-03T00:41:13.275Z"
+    },
+    {
+      "pageName": "About",
+      "url": "https://nestfest.app/about",
+      "error": "page.waitForTimeout is not a function",
+      "timestamp": "2025-09-03T00:41:15.531Z"
+    },
+    {
+      "pageName": "Registration",
+      "url": "https://nestfest.app/register",
+      "error": "page.waitForTimeout is not a function",
+      "timestamp": "2025-09-03T00:41:17.230Z"
+    },
+    {
+      "pageName": "Terms",
+      "url": "https://nestfest.app/terms",
+      "error": "page.waitForTimeout is not a function",
+      "timestamp": "2025-09-03T00:41:19.408Z"
+    },
+    {
+      "pageName": "Privacy",
+      "url": "https://nestfest.app/privacy",
+      "error": "page.waitForTimeout is not a function",
+      "timestamp": "2025-09-03T00:41:21.598Z"
+    }
+  ],
+  "recommendations": {
+    "lcp": {
+      "priority": "good",
+      "current": null
+    },
+    "fcp": {
+      "priority": "good",
+      "current": null
+    },
+    "cls": {
+      "priority": "good",
+      "current": null
+    },
+    "ttfb": {
+      "priority": "good",
+      "current": null
+    }
+  }
+}

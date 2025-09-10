@@ -1,0 +1,138 @@
+{
+  "homepage": {
+    "url": "http://localhost:3000",
+    "issues": [
+      {
+        "element": "p",
+        "text": "ACC's First Ever Startup Competition",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "hasTransparentBg": true,
+        "selector": ".text-lg",
+        "contrast": {
+          "ratio": 1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": true,
+          "aaThreshold": 3,
+          "aaaThreshold": 4.5
+        }
+      },
+      {
+        "element": "p",
+        "text": "Coming Fall 2025",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "hasTransparentBg": true,
+        "selector": ".text-lg",
+        "contrast": {
+          "ratio": 1.1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": false,
+          "aaThreshold": 4.5,
+          "aaaThreshold": 7
+        }
+      },
+      {
+        "element": "h1",
+        "text": "NEST FEST",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 96,
+        "fontWeight": 900,
+        "hasTransparentBg": true,
+        "selector": ".text-6xl",
+        "contrast": {
+          "ratio": 1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": true,
+          "aaThreshold": 3,
+          "aaaThreshold": 4.5
+        }
+      },
+      {
+        "element": "h2",
+        "text": "The Entrepreneurship & Innovation Academy & EDGE T",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 36,
+        "fontWeight": 300,
+        "hasTransparentBg": true,
+        "selector": ".text-3xl",
+        "contrast": {
+          "ratio": 1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": true,
+          "aaThreshold": 3,
+          "aaaThreshold": 4.5
+        }
+      },
+      {
+        "element": "p",
+        "text": "ACC Entrepreneurship & Innovation Academy is a dyn",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "hasTransparentBg": true,
+        "selector": ".text-lg",
+        "contrast": {
+          "ratio": 1.1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": false,
+          "aaThreshold": 4.5,
+          "aaaThreshold": 7
+        }
+      }
+    ]
+  },
+  "registerPage": {
+    "url": "http://localhost:3000/register",
+    "issues": [
+      {
+        "element": "h1",
+        "text": "Register for NEST FEST 2025",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 60,
+        "fontWeight": 900,
+        "hasTransparentBg": true,
+        "selector": ".text-4xl",
+        "contrast": {
+          "ratio": 1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": true,
+          "aaThreshold": 3,
+          "aaaThreshold": 4.5
+        }
+      },
+      {
+        "element": "p",
+        "text": "Join ACC's first-ever startup pitch competition",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": 20,
+        "fontWeight": 600,
+        "hasTransparentBg": true,
+        "selector": ".text-xl",
+        "contrast": {
+          "ratio": 1.1,
+          "passAA": false,
+          "passAAA": false,
+          "isLargeText": false,
+          "aaThreshold": 4.5,
+          "aaaThreshold": 7
+        }
+      }
+    ]
+  }
+}

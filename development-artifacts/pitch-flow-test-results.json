@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-09-03T01:38:03.754Z",
+  "tests": [
+    {
+      "test": "Desktop Pitch Navigation",
+      "status": "PASSED",
+      "duration": "2898ms",
+      "details": "Successfully navigated to pitch section"
+    },
+    {
+      "test": "Mobile Pitch Navigation",
+      "status": "PASSED",
+      "duration": "1640ms",
+      "details": "Successfully navigated via mobile menu"
+    },
+    {
+      "test": "Pitch Content Verification",
+      "status": "PASSED",
+      "duration": "N/A",
+      "details": "Shark Tank: true, Competition: true, NEST FEST: true"
+    },
+    {
+      "test": "Register CTA Button",
+      "status": "FAILED",
+      "duration": "N/A",
+      "details": "Failed to navigate to register page"
+    },
+    {
+      "test": "Get Started CTA Button",
+      "status": "PASSED",
+      "duration": "N/A",
+      "details": "Successfully scrolled to contact section"
+    },
+    {
+      "test": "Navigation Performance",
+      "status": "PASSED",
+      "duration": "187ms",
+      "details": "Navigation speed: 187ms (target: <500ms)"
+    }
+  ],
+  "summary": {
+    "passed": 5,
+    "failed": 1,
+    "total": 6
+  }
+}

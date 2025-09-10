@@ -1,0 +1,1382 @@
+{
+  "homepage": {
+    "pageName": "Homepage",
+    "headingHierarchy": [
+      {
+        "tag": "h1",
+        "text": "NEST FEST",
+        "hasId": false,
+        "isVisible": true,
+        "level": 1
+      },
+      {
+        "tag": "h1",
+        "text": "NEST FEST",
+        "hasId": false,
+        "isVisible": true,
+        "level": 1
+      },
+      {
+        "tag": "h2",
+        "text": "Event Overview",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      },
+      {
+        "tag": "h2",
+        "text": "The Entrepreneurship & Innovation Academy & EDGE Team",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      },
+      {
+        "tag": "h3",
+        "text": "Speakers",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h3",
+        "text": "Organizers",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h3",
+        "text": "Attendees",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h3",
+        "text": "Resources",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h2",
+        "text": "About Us",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      },
+      {
+        "tag": "h2",
+        "text": "Subscribe for NEST FEST Updates",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      },
+      {
+        "tag": "h2",
+        "text": "Get In Touch",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      }
+    ],
+    "focusableElements": [
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "Get Connected",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 148.578125,
+        "height": 40,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "",
+        "hasAriaLabel": true,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": false,
+        "hasVisibleText": false,
+        "width": 0,
+        "height": 0,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "Get Connected",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": false,
+        "hasVisibleText": true,
+        "width": 0,
+        "height": 0,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "REGISTER",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 160,
+        "height": 48,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "GET STARTED",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 190.609375,
+        "height": 48,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "REGISTER",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 150.671875,
+        "height": 48,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "Subscribe",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 131.671875,
+        "height": 40,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 300.328125,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Pitch",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 38.453125,
+        "height": 24,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Get Connected",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 148.578125,
+        "height": 40,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Pitch",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": false,
+        "hasVisibleText": true,
+        "width": 0,
+        "height": 0,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Get Connected",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": false,
+        "hasVisibleText": true,
+        "width": 0,
+        "height": 0,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "REGISTER",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 160,
+        "height": 48,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "GET STARTED",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 190.609375,
+        "height": 48,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "REGISTER",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 150.671875,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "entrepreneurshipacademy@austincc.edu",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 356.03125,
+        "height": 21,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "About",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 40.234375,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Contact",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 52.78125,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Privacy",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 49.8125,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "Terms",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 41.84375,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      }
+    ],
+    "ariaIssues": [
+      {
+        "type": "heading-hierarchy",
+        "severity": "moderate",
+        "message": "H1 should be the first heading on the page",
+        "element": "h1"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (149x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Get Connected"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (132x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Subscribe"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (38x24px, minimum 44x44px)",
+        "element": "a",
+        "text": "Pitch"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (149x40px, minimum 44x44px)",
+        "element": "a",
+        "text": "Get Connected"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (151x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "REGISTER"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (356x21px, minimum 44x44px)",
+        "element": "a",
+        "text": "entrepreneurshipacademy@austincc.edu"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (40x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "About"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (53x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Contact"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (50x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Privacy"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (42x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Terms"
+      },
+      {
+        "type": "form-label-missing",
+        "severity": "critical",
+        "message": "Form input \"email\" missing label",
+        "element": "input[type=\"email\"]"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"email\" should have aria-required=\"true\"",
+        "element": "input[name=\"email\"]"
+      },
+      {
+        "type": "semantic-structure",
+        "severity": "moderate",
+        "message": "Page missing main landmark element",
+        "element": "page"
+      }
+    ],
+    "colorContrast": [
+      {
+        "text": "NNEST FESTPitchGet ConnectedPitchGet ConnectedACC'",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FESTPitchGet ConnectedPitchGet ConnectedACC'",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FESTPitchGet Connected",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FEST",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "N",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(17, 24, 39)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "N",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "tag": "span"
+      },
+      {
+        "text": "NEST FEST",
+        "color": "rgb(17, 24, 39)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "tag": "h1"
+      },
+      {
+        "text": "Pitch",
+        "color": "rgb(55, 65, 81)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "tag": "a"
+      },
+      {
+        "text": "Get Connected",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "a"
+      },
+      {
+        "text": "Get Connected",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(17, 24, 39)",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "tag": "button"
+      },
+      {
+        "text": "ACC's First Ever Startup CompetitionComing Fall 20",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "ACC's First Ever Startup CompetitionComing Fall 20",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "ACC's First Ever Startup CompetitionComing Fall 20",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "ACC's First Ever Startup Competition",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "18px",
+        "fontWeight": "700",
+        "tag": "p"
+      },
+      {
+        "text": "Coming Fall 2025",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "tag": "p"
+      },
+      {
+        "text": "NEST FEST",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "96px",
+        "fontWeight": "900",
+        "tag": "h1"
+      },
+      {
+        "text": "Are you ready to turn your business idea into real",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(17, 24, 39, 0.3)",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "tag": "p"
+      },
+      {
+        "text": "Building a community where big ideas take flight. ",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgba(17, 24, 39, 0.2)",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "tag": "p"
+      },
+      {
+        "text": "REGISTERGET STARTED",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "REGISTER",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "a"
+      }
+    ],
+    "keyboardNavigation": [],
+    "formAccessibility": [
+      {
+        "hasFieldset": false,
+        "hasLegend": false,
+        "inputs": [
+          {
+            "id": "",
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "hasLabel": false,
+            "labelText": "",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Enter your email address"
+          }
+        ]
+      }
+    ],
+    "semanticStructure": {
+      "hasMain": false,
+      "hasHeader": true,
+      "hasFooter": true,
+      "hasNav": true,
+      "hasSection": true,
+      "hasAside": false,
+      "hasLandmarks": 0,
+      "skipLinks": 5
+    },
+    "screenReaderIssues": []
+  },
+  "registerPage": {
+    "pageName": "Register Page",
+    "headingHierarchy": [
+      {
+        "tag": "h1",
+        "text": "NEST FEST",
+        "hasId": false,
+        "isVisible": true,
+        "level": 1
+      },
+      {
+        "tag": "h1",
+        "text": "Register for NEST FEST 2025",
+        "hasId": false,
+        "isVisible": true,
+        "level": 1
+      },
+      {
+        "tag": "h2",
+        "text": "Competition Registration",
+        "hasId": false,
+        "isVisible": true,
+        "level": 2
+      },
+      {
+        "tag": "h3",
+        "text": "Personal Information",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h3",
+        "text": "Project Information (Optional)",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      },
+      {
+        "tag": "h4",
+        "text": "💡 Competition Details",
+        "hasId": false,
+        "isVisible": true,
+        "level": 4
+      },
+      {
+        "tag": "h3",
+        "text": "Questions?",
+        "hasId": false,
+        "isVisible": true,
+        "level": 3
+      }
+    ],
+    "focusableElements": [
+      {
+        "tag": "button",
+        "type": "submit",
+        "text": "Register for NEST FEST 2025",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 560,
+        "height": 40,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "email",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 50,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "textarea",
+        "type": "textarea",
+        "text": "",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": false,
+        "width": 560,
+        "height": 122,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "NNEST FEST",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 152.359375,
+        "height": 32,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "← Back to Home",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 124.1875,
+        "height": 24,
+        "role": null,
+        "ariaHidden": null
+      },
+      {
+        "tag": "a",
+        "type": null,
+        "text": "entrepreneurshipacademy@austincc.edu",
+        "hasAriaLabel": false,
+        "hasAriaLabelledby": false,
+        "hasAriaDescribedby": false,
+        "tabIndex": 0,
+        "isVisible": true,
+        "hasVisibleText": true,
+        "width": 316.484375,
+        "height": 20,
+        "role": null,
+        "ariaHidden": null
+      }
+    ],
+    "ariaIssues": [
+      {
+        "type": "heading-hierarchy",
+        "severity": "moderate",
+        "message": "H1 should be the first heading on the page",
+        "element": "h1"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (560x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Register for NEST FEST 2025"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (152x32px, minimum 44x44px)",
+        "element": "a",
+        "text": "NNEST FEST"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (124x24px, minimum 44x44px)",
+        "element": "a",
+        "text": "← Back to Home"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (316x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "entrepreneurshipacademy@austincc.edu"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"name\" should have aria-required=\"true\"",
+        "element": "input[name=\"name\"]"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"email\" should have aria-required=\"true\"",
+        "element": "input[name=\"email\"]"
+      },
+      {
+        "type": "semantic-structure",
+        "severity": "moderate",
+        "message": "Page missing main landmark element",
+        "element": "page"
+      }
+    ],
+    "colorContrast": [
+      {
+        "text": "NNEST FEST← Back to HomeRegister for NEST FEST 202",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FEST← Back to HomeRegister for NEST FEST 202",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FEST← Back to Home",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NNEST FEST",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "a"
+      },
+      {
+        "text": "N",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(17, 24, 39)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "N",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "14px",
+        "fontWeight": "700",
+        "tag": "span"
+      },
+      {
+        "text": "NEST FEST",
+        "color": "rgb(17, 24, 39)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "tag": "h1"
+      },
+      {
+        "text": "← Back to Home",
+        "color": "rgb(75, 85, 99)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "a"
+      },
+      {
+        "text": "Register for NEST FEST 2025Join ACC's first-ever s",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "Register for NEST FEST 2025",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "60px",
+        "fontWeight": "900",
+        "tag": "h1"
+      },
+      {
+        "text": "Join ACC's first-ever startup pitch competition",
+        "color": "rgb(243, 244, 246)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "20px",
+        "fontWeight": "600",
+        "tag": "p"
+      },
+      {
+        "text": "NCompetition RegistrationFill out the form below t",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NCompetition RegistrationFill out the form below t",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "NCompetition RegistrationFill out the form below t",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "N",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgb(17, 24, 39)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "N",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "tag": "span"
+      },
+      {
+        "text": "Competition Registration",
+        "color": "rgb(17, 24, 39)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "24px",
+        "fontWeight": "700",
+        "tag": "h2"
+      },
+      {
+        "text": "Fill out the form below to secure your spot in NES",
+        "color": "rgb(75, 85, 99)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "p"
+      },
+      {
+        "text": "Personal InformationFull Name *Email Address *Phon",
+        "color": "rgb(23, 23, 23)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "tag": "div"
+      },
+      {
+        "text": "Personal Information",
+        "color": "rgb(17, 24, 39)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontSize": "18px",
+        "fontWeight": "600",
+        "tag": "h3"
+      }
+    ],
+    "keyboardNavigation": [],
+    "formAccessibility": [
+      {
+        "hasFieldset": false,
+        "hasLegend": false,
+        "inputs": [
+          {
+            "id": "name",
+            "name": "name",
+            "type": "text",
+            "required": true,
+            "hasLabel": true,
+            "labelText": "Full Name *",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Enter your full name"
+          },
+          {
+            "id": "email",
+            "name": "email",
+            "type": "email",
+            "required": true,
+            "hasLabel": true,
+            "labelText": "Email Address *",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Enter your email address"
+          },
+          {
+            "id": "phone",
+            "name": "phone",
+            "type": "tel",
+            "required": false,
+            "hasLabel": true,
+            "labelText": "Phone Number",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Enter your phone number"
+          },
+          {
+            "id": "school",
+            "name": "school",
+            "type": "text",
+            "required": false,
+            "hasLabel": true,
+            "labelText": "School/Organization",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Austin Community College, University of Texas, etc."
+          },
+          {
+            "id": "projectTitle",
+            "name": "projectTitle",
+            "type": "text",
+            "required": false,
+            "hasLabel": true,
+            "labelText": "Project Title",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "What's your startup/project called?"
+          },
+          {
+            "id": "projectDescription",
+            "name": "projectDescription",
+            "type": "textarea",
+            "required": false,
+            "hasLabel": true,
+            "labelText": "Project Description",
+            "hasAriaLabel": false,
+            "hasAriaLabelledby": false,
+            "hasAriaDescribedby": false,
+            "hasAriaRequired": false,
+            "hasAriaInvalid": false,
+            "placeholder": "Briefly describe your idea, product, or service..."
+          }
+        ]
+      }
+    ],
+    "semanticStructure": {
+      "hasMain": false,
+      "hasHeader": true,
+      "hasFooter": false,
+      "hasNav": false,
+      "hasSection": true,
+      "hasAside": false,
+      "hasLandmarks": 0,
+      "skipLinks": 0
+    },
+    "screenReaderIssues": []
+  },
+  "summary": {
+    "criticalIssues": [
+      {
+        "type": "form-label-missing",
+        "severity": "critical",
+        "message": "Form input \"email\" missing label",
+        "element": "input[type=\"email\"]"
+      }
+    ],
+    "moderateIssues": [
+      {
+        "type": "heading-hierarchy",
+        "severity": "moderate",
+        "message": "H1 should be the first heading on the page",
+        "element": "h1"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (149x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Get Connected"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (132x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Subscribe"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (38x24px, minimum 44x44px)",
+        "element": "a",
+        "text": "Pitch"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (149x40px, minimum 44x44px)",
+        "element": "a",
+        "text": "Get Connected"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (151x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "REGISTER"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (356x21px, minimum 44x44px)",
+        "element": "a",
+        "text": "entrepreneurshipacademy@austincc.edu"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (40x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "About"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (53x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Contact"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (50x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Privacy"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (42x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "Terms"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"email\" should have aria-required=\"true\"",
+        "element": "input[name=\"email\"]"
+      },
+      {
+        "type": "semantic-structure",
+        "severity": "moderate",
+        "message": "Page missing main landmark element",
+        "element": "page"
+      },
+      {
+        "type": "heading-hierarchy",
+        "severity": "moderate",
+        "message": "H1 should be the first heading on the page",
+        "element": "h1"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (560x40px, minimum 44x44px)",
+        "element": "button",
+        "text": "Register for NEST FEST 2025"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (152x32px, minimum 44x44px)",
+        "element": "a",
+        "text": "NNEST FEST"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (124x24px, minimum 44x44px)",
+        "element": "a",
+        "text": "← Back to Home"
+      },
+      {
+        "type": "touch-target-size",
+        "severity": "moderate",
+        "message": "Touch target too small (316x20px, minimum 44x44px)",
+        "element": "a",
+        "text": "entrepreneurshipacademy@austincc.edu"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"name\" should have aria-required=\"true\"",
+        "element": "input[name=\"name\"]"
+      },
+      {
+        "type": "form-required-indication",
+        "severity": "moderate",
+        "message": "Required field \"email\" should have aria-required=\"true\"",
+        "element": "input[name=\"email\"]"
+      },
+      {
+        "type": "semantic-structure",
+        "severity": "moderate",
+        "message": "Page missing main landmark element",
+        "element": "page"
+      }
+    ],
+    "recommendations": [
+      {
+        "priority": "High",
+        "category": "Form Accessibility",
+        "recommendation": "Add proper labels and ARIA attributes to all form inputs",
+        "impact": "Critical for screen reader users"
+      },
+      {
+        "priority": "High",
+        "category": "Keyboard Navigation",
+        "recommendation": "Ensure all interactive elements are keyboard accessible",
+        "impact": "Essential for users who cannot use a mouse"
+      },
+      {
+        "priority": "Medium",
+        "category": "Semantic Structure",
+        "recommendation": "Use proper HTML5 semantic elements and ARIA landmarks",
+        "impact": "Improves navigation for assistive technology users"
+      },
+      {
+        "priority": "Medium",
+        "category": "Color Contrast",
+        "recommendation": "Verify all text meets WCAG AA contrast requirements",
+        "impact": "Important for users with visual impairments"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2338 @@
+{
+  "overview": {
+    "testDate": "2025-09-01T04:27:55.098Z",
+    "totalPages": 10,
+    "totalViewports": 4,
+    "browsers": [
+      "Chromium",
+      "Firefox",
+      "WebKit"
+    ]
+  },
+  "pages": {
+    "homepage_desktop-large": {
+      "url": "https://nestfest.app/",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 873,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 440,
+        "firstContentfulPaint": 440
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "Live Event",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "internal": true
+          },
+          {
+            "text": "Terms",
+            "href": "/terms",
+            "internal": true
+          }
+        ],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/demo",
+          "text": "Try Demo",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\homepage_desktop-large.png"
+    },
+    "homepage_desktop": {
+      "url": "https://nestfest.app/",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 805,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 336,
+        "firstContentfulPaint": 336
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "Live Event",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "internal": true
+          },
+          {
+            "text": "Terms",
+            "href": "/terms",
+            "internal": true
+          }
+        ],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/demo",
+          "text": "Try Demo",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\homepage_desktop.png"
+    },
+    "homepage_tablet": {
+      "url": "https://nestfest.app/",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1038,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 372,
+        "firstContentfulPaint": 372
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "Live Event",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "internal": true
+          },
+          {
+            "text": "Terms",
+            "href": "/terms",
+            "internal": true
+          }
+        ],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/demo",
+          "text": "Try Demo",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\homepage_tablet.png"
+    },
+    "homepage_mobile": {
+      "url": "https://nestfest.app/",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 986,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 244,
+        "firstContentfulPaint": 244
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "Live Event",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Privacy",
+            "href": "/privacy",
+            "internal": true
+          },
+          {
+            "text": "Terms",
+            "href": "/terms",
+            "internal": true
+          }
+        ],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/demo",
+          "text": "Try Demo",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\homepage_mobile.png"
+    },
+    "about_desktop-large": {
+      "url": "https://nestfest.app/about",
+      "viewport": "desktop-large",
+      "title": "About NestFest",
+      "status": 200,
+      "loadTime": 1075,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 440,
+        "firstContentfulPaint": 440
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Live",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\about_desktop-large.png"
+    },
+    "about_desktop": {
+      "url": "https://nestfest.app/about",
+      "viewport": "desktop",
+      "title": "About NestFest",
+      "status": 200,
+      "loadTime": 1003,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 388,
+        "firstContentfulPaint": 388
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Live",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\about_desktop.png"
+    },
+    "about_tablet": {
+      "url": "https://nestfest.app/about",
+      "viewport": "tablet",
+      "title": "About NestFest",
+      "status": 200,
+      "loadTime": 1106,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 388,
+        "firstContentfulPaint": 388
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Live",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\about_tablet.png"
+    },
+    "about_mobile": {
+      "url": "https://nestfest.app/about",
+      "viewport": "mobile",
+      "title": "About NestFest",
+      "status": 200,
+      "loadTime": 1046,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0.10000000894069672,
+        "firstPaint": 328,
+        "firstContentfulPaint": 328
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Live",
+            "href": "/live",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\about_mobile.png"
+    },
+    "login_desktop-large": {
+      "url": "https://nestfest.app/login",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 972,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 304,
+        "firstContentfulPaint": 304
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Enter your password"
+            },
+            {
+              "type": "checkbox",
+              "name": "remember",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/forgot-password",
+          "text": "Forgot password?",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\login_desktop-large.png"
+    },
+    "login_desktop": {
+      "url": "https://nestfest.app/login",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1106,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 272,
+        "firstContentfulPaint": 272
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Enter your password"
+            },
+            {
+              "type": "checkbox",
+              "name": "remember",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/forgot-password",
+          "text": "Forgot password?",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\login_desktop.png"
+    },
+    "login_tablet": {
+      "url": "https://nestfest.app/login",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 928,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 288,
+        "firstContentfulPaint": 288
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Enter your password"
+            },
+            {
+              "type": "checkbox",
+              "name": "remember",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/forgot-password",
+          "text": "Forgot password?",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\login_tablet.png"
+    },
+    "login_mobile": {
+      "url": "https://nestfest.app/login",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 949,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 240,
+        "firstContentfulPaint": 240
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Enter your password"
+            },
+            {
+              "type": "checkbox",
+              "name": "remember",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [
+        {
+          "href": "https://nestfest.app/forgot-password",
+          "text": "Forgot password?",
+          "status": 404
+        }
+      ],
+      "screenshotPath": "production-analysis-report\\screenshots\\login_mobile.png"
+    },
+    "register_desktop-large": {
+      "url": "https://nestfest.app/register",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 770,
+      "performanceMetrics": {
+        "domContentLoaded": 0.9000000059604645,
+        "loadComplete": 0,
+        "firstPaint": 264,
+        "firstContentfulPaint": 264
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "name",
+              "required": true,
+              "placeholder": "Enter your full name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Create password"
+            },
+            {
+              "type": "password",
+              "name": "confirmPassword",
+              "required": true,
+              "placeholder": "Confirm password"
+            },
+            {
+              "type": "text",
+              "name": "university",
+              "required": false,
+              "placeholder": "Enter your university"
+            },
+            {
+              "type": null,
+              "name": "projectDescription",
+              "required": false,
+              "placeholder": "Describe your programming projects, hackathon experiences, favorite technologies, or what excites you about coding competitions..."
+            },
+            {
+              "type": null,
+              "name": "program",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "graduationYear",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "agreeTerms",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "subscribeUpdates",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\register_desktop-large.png"
+    },
+    "register_desktop": {
+      "url": "https://nestfest.app/register",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 877,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 432,
+        "firstContentfulPaint": 432
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "name",
+              "required": true,
+              "placeholder": "Enter your full name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Create password"
+            },
+            {
+              "type": "password",
+              "name": "confirmPassword",
+              "required": true,
+              "placeholder": "Confirm password"
+            },
+            {
+              "type": "text",
+              "name": "university",
+              "required": false,
+              "placeholder": "Enter your university"
+            },
+            {
+              "type": null,
+              "name": "projectDescription",
+              "required": false,
+              "placeholder": "Describe your programming projects, hackathon experiences, favorite technologies, or what excites you about coding competitions..."
+            },
+            {
+              "type": null,
+              "name": "program",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "graduationYear",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "agreeTerms",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "subscribeUpdates",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\register_desktop.png"
+    },
+    "register_tablet": {
+      "url": "https://nestfest.app/register",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 905,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 384,
+        "firstContentfulPaint": 384
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "name",
+              "required": true,
+              "placeholder": "Enter your full name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Create password"
+            },
+            {
+              "type": "password",
+              "name": "confirmPassword",
+              "required": true,
+              "placeholder": "Confirm password"
+            },
+            {
+              "type": "text",
+              "name": "university",
+              "required": false,
+              "placeholder": "Enter your university"
+            },
+            {
+              "type": null,
+              "name": "projectDescription",
+              "required": false,
+              "placeholder": "Describe your programming projects, hackathon experiences, favorite technologies, or what excites you about coding competitions..."
+            },
+            {
+              "type": null,
+              "name": "program",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "graduationYear",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "agreeTerms",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "subscribeUpdates",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\register_tablet.png"
+    },
+    "register_mobile": {
+      "url": "https://nestfest.app/register",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 803,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 336,
+        "firstContentfulPaint": 336
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "name",
+              "required": true,
+              "placeholder": "Enter your full name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": true,
+              "placeholder": "Enter your email"
+            },
+            {
+              "type": "password",
+              "name": "password",
+              "required": true,
+              "placeholder": "Create password"
+            },
+            {
+              "type": "password",
+              "name": "confirmPassword",
+              "required": true,
+              "placeholder": "Confirm password"
+            },
+            {
+              "type": "text",
+              "name": "university",
+              "required": false,
+              "placeholder": "Enter your university"
+            },
+            {
+              "type": null,
+              "name": "projectDescription",
+              "required": false,
+              "placeholder": "Describe your programming projects, hackathon experiences, favorite technologies, or what excites you about coding competitions..."
+            },
+            {
+              "type": null,
+              "name": "program",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "graduationYear",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "agreeTerms",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": "checkbox",
+              "name": "subscribeUpdates",
+              "required": false,
+              "placeholder": null
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\register_mobile.png"
+    },
+    "showcase_desktop-large": {
+      "url": "https://nestfest.app/showcase",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 797,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 340,
+        "firstContentfulPaint": 340
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\showcase_desktop-large.png"
+    },
+    "showcase_desktop": {
+      "url": "https://nestfest.app/showcase",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 750,
+      "performanceMetrics": {
+        "domContentLoaded": 0.7000000029802322,
+        "loadComplete": 0,
+        "firstPaint": 340,
+        "firstContentfulPaint": 340
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\showcase_desktop.png"
+    },
+    "showcase_tablet": {
+      "url": "https://nestfest.app/showcase",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 740,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 264,
+        "firstContentfulPaint": 264
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\showcase_tablet.png"
+    },
+    "showcase_mobile": {
+      "url": "https://nestfest.app/showcase",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 765,
+      "performanceMetrics": {
+        "domContentLoaded": 0.5999999940395355,
+        "loadComplete": 0,
+        "firstPaint": 288,
+        "firstContentfulPaint": 288
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\showcase_mobile.png"
+    },
+    "live_desktop-large": {
+      "url": "https://nestfest.app/live",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 3192,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 300,
+        "firstContentfulPaint": 300
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No headings found on page",
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\live_desktop-large.png"
+    },
+    "live_desktop": {
+      "url": "https://nestfest.app/live",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 3213,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 244,
+        "firstContentfulPaint": 244
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No headings found on page",
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\live_desktop.png"
+    },
+    "live_tablet": {
+      "url": "https://nestfest.app/live",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 3243,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 248,
+        "firstContentfulPaint": 248
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No headings found on page",
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\live_tablet.png"
+    },
+    "live_mobile": {
+      "url": "https://nestfest.app/live",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 3208,
+      "performanceMetrics": {
+        "domContentLoaded": 0.19999998807907104,
+        "loadComplete": 0,
+        "firstPaint": 236,
+        "firstContentfulPaint": 236
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No headings found on page",
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\live_mobile.png"
+    },
+    "contact_desktop-large": {
+      "url": "https://nestfest.app/contact",
+      "viewport": "desktop-large",
+      "title": "Contact Us",
+      "status": 200,
+      "loadTime": 912,
+      "performanceMetrics": {
+        "domContentLoaded": 0.19999998807907104,
+        "loadComplete": 0,
+        "firstPaint": 124,
+        "firstContentfulPaint": 124
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "firstName",
+              "required": false,
+              "placeholder": "Your first name"
+            },
+            {
+              "type": "text",
+              "name": "lastName",
+              "required": false,
+              "placeholder": "Your last name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": false,
+              "placeholder": "your@email.com"
+            },
+            {
+              "type": null,
+              "name": "subject",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "message",
+              "required": false,
+              "placeholder": "How can we help you?"
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\contact_desktop-large.png"
+    },
+    "contact_desktop": {
+      "url": "https://nestfest.app/contact",
+      "viewport": "desktop",
+      "title": "Contact Us",
+      "status": 200,
+      "loadTime": 985,
+      "performanceMetrics": {
+        "domContentLoaded": 0.3999999910593033,
+        "loadComplete": 0,
+        "firstPaint": 116,
+        "firstContentfulPaint": 116
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "firstName",
+              "required": false,
+              "placeholder": "Your first name"
+            },
+            {
+              "type": "text",
+              "name": "lastName",
+              "required": false,
+              "placeholder": "Your last name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": false,
+              "placeholder": "your@email.com"
+            },
+            {
+              "type": null,
+              "name": "subject",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "message",
+              "required": false,
+              "placeholder": "How can we help you?"
+            }
+          ],
+          "validation": [],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\contact_desktop.png"
+    },
+    "contact_tablet": {
+      "url": "https://nestfest.app/contact",
+      "viewport": "tablet",
+      "title": "Contact Us",
+      "status": 200,
+      "loadTime": 1055,
+      "performanceMetrics": {
+        "domContentLoaded": 0.20000000298023224,
+        "loadComplete": 0,
+        "firstPaint": 116,
+        "firstContentfulPaint": 116
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "firstName",
+              "required": false,
+              "placeholder": "Your first name"
+            },
+            {
+              "type": "text",
+              "name": "lastName",
+              "required": false,
+              "placeholder": "Your last name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": false,
+              "placeholder": "your@email.com"
+            },
+            {
+              "type": null,
+              "name": "subject",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "message",
+              "required": false,
+              "placeholder": "How can we help you?"
+            }
+          ],
+          "validation": [
+            ""
+          ],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\contact_tablet.png"
+    },
+    "contact_mobile": {
+      "url": "https://nestfest.app/contact",
+      "viewport": "mobile",
+      "title": "Contact Us",
+      "status": 200,
+      "loadTime": 906,
+      "performanceMetrics": {
+        "domContentLoaded": 0.4000000059604645,
+        "loadComplete": 0,
+        "firstPaint": 124,
+        "firstContentfulPaint": 124
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [
+        {
+          "index": 0,
+          "action": null,
+          "method": null,
+          "inputs": [
+            {
+              "type": "text",
+              "name": "firstName",
+              "required": false,
+              "placeholder": "Your first name"
+            },
+            {
+              "type": "text",
+              "name": "lastName",
+              "required": false,
+              "placeholder": "Your last name"
+            },
+            {
+              "type": "email",
+              "name": "email",
+              "required": false,
+              "placeholder": "your@email.com"
+            },
+            {
+              "type": null,
+              "name": "subject",
+              "required": false,
+              "placeholder": null
+            },
+            {
+              "type": null,
+              "name": "message",
+              "required": false,
+              "placeholder": "How can we help you?"
+            }
+          ],
+          "validation": [],
+          "hasSubmitButton": true
+        }
+      ],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\contact_mobile.png"
+    },
+    "privacy_desktop-large": {
+      "url": "https://nestfest.app/privacy",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 962,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 268,
+        "firstContentfulPaint": 268
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\privacy_desktop-large.png"
+    },
+    "privacy_desktop": {
+      "url": "https://nestfest.app/privacy",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 972,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 240,
+        "firstContentfulPaint": 240
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\privacy_desktop.png"
+    },
+    "privacy_tablet": {
+      "url": "https://nestfest.app/privacy",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 953,
+      "performanceMetrics": {
+        "domContentLoaded": 0.7000000029802322,
+        "loadComplete": 0,
+        "firstPaint": 276,
+        "firstContentfulPaint": 276
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\privacy_tablet.png"
+    },
+    "privacy_mobile": {
+      "url": "https://nestfest.app/privacy",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1005,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 288,
+        "firstContentfulPaint": 288
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\privacy_mobile.png"
+    },
+    "terms_desktop-large": {
+      "url": "https://nestfest.app/terms",
+      "viewport": "desktop-large",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1216,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 544,
+        "firstContentfulPaint": 544
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\terms_desktop-large.png"
+    },
+    "terms_desktop": {
+      "url": "https://nestfest.app/terms",
+      "viewport": "desktop",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 992,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 248,
+        "firstContentfulPaint": 248
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\terms_desktop.png"
+    },
+    "terms_tablet": {
+      "url": "https://nestfest.app/terms",
+      "viewport": "tablet",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1182,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 296,
+        "firstContentfulPaint": 296
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\terms_tablet.png"
+    },
+    "terms_mobile": {
+      "url": "https://nestfest.app/terms",
+      "viewport": "mobile",
+      "title": "NestFest - Competition Platform",
+      "status": 200,
+      "loadTime": 1119,
+      "performanceMetrics": {
+        "domContentLoaded": 0.10000000894069672,
+        "loadComplete": 0,
+        "firstPaint": 244,
+        "firstContentfulPaint": 244
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Rules",
+            "href": "/rules",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\terms_mobile.png"
+    },
+    "rules_desktop-large": {
+      "url": "https://nestfest.app/rules",
+      "viewport": "desktop-large",
+      "title": "Competition Rules",
+      "status": 200,
+      "loadTime": 1188,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 480,
+        "firstContentfulPaint": 480
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\rules_desktop-large.png"
+    },
+    "rules_desktop": {
+      "url": "https://nestfest.app/rules",
+      "viewport": "desktop",
+      "title": "Competition Rules",
+      "status": 200,
+      "loadTime": 1191,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 544,
+        "firstContentfulPaint": 544
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\rules_desktop.png"
+    },
+    "rules_tablet": {
+      "url": "https://nestfest.app/rules",
+      "viewport": "tablet",
+      "title": "Competition Rules",
+      "status": 200,
+      "loadTime": 1055,
+      "performanceMetrics": {
+        "domContentLoaded": 0.09999999403953552,
+        "loadComplete": 0,
+        "firstPaint": 340,
+        "firstContentfulPaint": 340
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\rules_tablet.png"
+    },
+    "rules_mobile": {
+      "url": "https://nestfest.app/rules",
+      "viewport": "mobile",
+      "title": "Competition Rules",
+      "status": 200,
+      "loadTime": 962,
+      "performanceMetrics": {
+        "domContentLoaded": 0,
+        "loadComplete": 0,
+        "firstPaint": 320,
+        "firstContentfulPaint": 320
+      },
+      "jsErrors": [],
+      "accessibilityIssues": [
+        "No skip links found"
+      ],
+      "formTests": [],
+      "navigationTests": {
+        "mainNavigation": [
+          {
+            "text": "NestFest",
+            "href": "/",
+            "internal": true
+          },
+          {
+            "text": "About",
+            "href": "/about",
+            "internal": true
+          },
+          {
+            "text": "Contact",
+            "href": "/contact",
+            "internal": true
+          },
+          {
+            "text": "Showcase",
+            "href": "/showcase",
+            "internal": true
+          },
+          {
+            "text": "Login",
+            "href": "/login",
+            "internal": true
+          }
+        ],
+        "footerNavigation": [],
+        "breadcrumbs": false,
+        "mobileMenu": false
+      },
+      "brokenLinks": [],
+      "screenshotPath": "production-analysis-report\\screenshots\\rules_mobile.png"
+    }
+  },
+  "performance": {},
+  "accessibility": {},
+  "functionality": {},
+  "issues": [],
+  "recommendations": [
+    {
+      "type": "accessibility",
+      "severity": "high",
+      "message": "Found 2 accessibility issues",
+      "suggestion": "Review and fix accessibility issues to improve user experience and compliance"
+    }
+  ]
+}

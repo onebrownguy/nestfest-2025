@@ -1,0 +1,1309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NestFest Production Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #007bff; padding-bottom: 20px; }
+        .header h1 { color: #007bff; margin: 0; }
+        .overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px; }
+        .overview-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; }
+        .overview-card h3 { margin: 0 0 10px 0; color: #495057; }
+        .overview-card .number { font-size: 2em; font-weight: bold; color: #007bff; }
+        .recommendations { margin-bottom: 40px; }
+        .recommendation { margin: 15px 0; padding: 15px; border-radius: 5px; border-left: 4px solid; }
+        .recommendation.high { background: #f8d7da; border-color: #dc3545; }
+        .recommendation.medium { background: #fff3cd; border-color: #ffc107; }
+        .recommendation.low { background: #d4edda; border-color: #28a745; }
+        .page-result { margin: 30px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        .page-result h3 { margin: 0 0 15px 0; color: #495057; }
+        .metrics { display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+        .metric { background: #e9ecef; padding: 5px 10px; border-radius: 3px; font-size: 0.9em; }
+        .screenshot img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+        .details { margin-top: 20px; }
+        .details h4 { color: #495057; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .details ul { margin: 10px 0; }
+        .details li { margin: 5px 0; }
+        @media (max-width: 768px) {
+            .metrics { flex-direction: column; }
+            .overview { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 NestFest Production Analysis Report</h1>
+            <p>Comprehensive testing results for <strong>https://nestfest.app</strong></p>
+            <p>Generated on: 8/31/2025, 11:27:55 PM</p>
+        </div>
+
+        <div class="overview">
+            <div class="overview-card">
+                <h3>Pages Tested</h3>
+                <div class="number">10</div>
+            </div>
+            <div class="overview-card">
+                <h3>Viewports</h3>
+                <div class="number">4</div>
+            </div>
+            <div class="overview-card">
+                <h3>Total Tests</h3>
+                <div class="number">40</div>
+            </div>
+            <div class="overview-card">
+                <h3>Recommendations</h3>
+                <div class="number">1</div>
+            </div>
+        </div>
+
+        <section class="recommendations">
+            <h2>🎯 Key Recommendations</h2>
+            
+      <div class="recommendation high">
+        <h4>Accessibility - HIGH</h4>
+        <p><strong>Issue:</strong> Found 2 accessibility issues</p>
+        <p><strong>Suggestion:</strong> Review and fix accessibility issues to improve user experience and compliance</p>
+      </div>
+    
+        </section>
+
+        <section class="results">
+            <h2>📊 Detailed Test Results</h2>
+            
+      <div class="page-result">
+        <h3>https://nestfest.app/ (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 873ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/homepage_desktop-large.png" alt="Screenshot of https://nestfest.app/" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 440ms</li>
+            <li>First Contentful Paint: 440ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/demo - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/ (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 805ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/homepage_desktop.png" alt="Screenshot of https://nestfest.app/" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 336ms</li>
+            <li>First Contentful Paint: 336ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/demo - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/ (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1038ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/homepage_tablet.png" alt="Screenshot of https://nestfest.app/" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 372ms</li>
+            <li>First Contentful Paint: 372ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/demo - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/ (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 986ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/homepage_mobile.png" alt="Screenshot of https://nestfest.app/" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 244ms</li>
+            <li>First Contentful Paint: 244ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/demo - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/about (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1075ms</span>
+          <span class="metric">Title: About NestFest</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/about_desktop-large.png" alt="Screenshot of https://nestfest.app/about" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 440ms</li>
+            <li>First Contentful Paint: 440ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/about (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1003ms</span>
+          <span class="metric">Title: About NestFest</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/about_desktop.png" alt="Screenshot of https://nestfest.app/about" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 388ms</li>
+            <li>First Contentful Paint: 388ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/about (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1106ms</span>
+          <span class="metric">Title: About NestFest</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/about_tablet.png" alt="Screenshot of https://nestfest.app/about" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 388ms</li>
+            <li>First Contentful Paint: 388ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/about (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1046ms</span>
+          <span class="metric">Title: About NestFest</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/about_mobile.png" alt="Screenshot of https://nestfest.app/about" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: 0.10000000894069672ms</li>
+            <li>First Paint: 328ms</li>
+            <li>First Contentful Paint: 328ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/login (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 972ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/login_desktop-large.png" alt="Screenshot of https://nestfest.app/login" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 304ms</li>
+            <li>First Contentful Paint: 304ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/forgot-password - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/login (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1106ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/login_desktop.png" alt="Screenshot of https://nestfest.app/login" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 272ms</li>
+            <li>First Contentful Paint: 272ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/forgot-password - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/login (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 928ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/login_tablet.png" alt="Screenshot of https://nestfest.app/login" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 288ms</li>
+            <li>First Contentful Paint: 288ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/forgot-password - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/login (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 949ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/login_mobile.png" alt="Screenshot of https://nestfest.app/login" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 240ms</li>
+            <li>First Contentful Paint: 240ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+            <h4>Broken Links</h4>
+            <ul><li>https://nestfest.app/forgot-password - 404</li></ul>
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/register (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 770ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/register_desktop-large.png" alt="Screenshot of https://nestfest.app/register" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.9000000059604645ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 264ms</li>
+            <li>First Contentful Paint: 264ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/register (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 877ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/register_desktop.png" alt="Screenshot of https://nestfest.app/register" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 432ms</li>
+            <li>First Contentful Paint: 432ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/register (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 905ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/register_tablet.png" alt="Screenshot of https://nestfest.app/register" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 384ms</li>
+            <li>First Contentful Paint: 384ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/register (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 803ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/register_mobile.png" alt="Screenshot of https://nestfest.app/register" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 336ms</li>
+            <li>First Contentful Paint: 336ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/showcase (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 797ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/showcase_desktop-large.png" alt="Screenshot of https://nestfest.app/showcase" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 340ms</li>
+            <li>First Contentful Paint: 340ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/showcase (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 750ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/showcase_desktop.png" alt="Screenshot of https://nestfest.app/showcase" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.7000000029802322ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 340ms</li>
+            <li>First Contentful Paint: 340ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/showcase (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 740ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/showcase_tablet.png" alt="Screenshot of https://nestfest.app/showcase" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 264ms</li>
+            <li>First Contentful Paint: 264ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/showcase (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 765ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/showcase_mobile.png" alt="Screenshot of https://nestfest.app/showcase" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.5999999940395355ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 288ms</li>
+            <li>First Contentful Paint: 288ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/live (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 3192ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/live_desktop-large.png" alt="Screenshot of https://nestfest.app/live" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 300ms</li>
+            <li>First Contentful Paint: 300ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No headings found on page</li><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/live (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 3213ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/live_desktop.png" alt="Screenshot of https://nestfest.app/live" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 244ms</li>
+            <li>First Contentful Paint: 244ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No headings found on page</li><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/live (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 3243ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/live_tablet.png" alt="Screenshot of https://nestfest.app/live" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 248ms</li>
+            <li>First Contentful Paint: 248ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No headings found on page</li><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/live (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 3208ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/live_mobile.png" alt="Screenshot of https://nestfest.app/live" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.19999998807907104ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 236ms</li>
+            <li>First Contentful Paint: 236ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No headings found on page</li><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/contact (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 912ms</span>
+          <span class="metric">Title: Contact Us</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/contact_desktop-large.png" alt="Screenshot of https://nestfest.app/contact" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.19999998807907104ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 124ms</li>
+            <li>First Contentful Paint: 124ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/contact (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 985ms</span>
+          <span class="metric">Title: Contact Us</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/contact_desktop.png" alt="Screenshot of https://nestfest.app/contact" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.3999999910593033ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 116ms</li>
+            <li>First Contentful Paint: 116ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/contact (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1055ms</span>
+          <span class="metric">Title: Contact Us</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/contact_tablet.png" alt="Screenshot of https://nestfest.app/contact" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.20000000298023224ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 116ms</li>
+            <li>First Contentful Paint: 116ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/contact (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 906ms</span>
+          <span class="metric">Title: Contact Us</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/contact_mobile.png" alt="Screenshot of https://nestfest.app/contact" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.4000000059604645ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 124ms</li>
+            <li>First Contentful Paint: 124ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/privacy (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 962ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/privacy_desktop-large.png" alt="Screenshot of https://nestfest.app/privacy" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 268ms</li>
+            <li>First Contentful Paint: 268ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/privacy (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 972ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/privacy_desktop.png" alt="Screenshot of https://nestfest.app/privacy" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 240ms</li>
+            <li>First Contentful Paint: 240ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/privacy (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 953ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/privacy_tablet.png" alt="Screenshot of https://nestfest.app/privacy" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.7000000029802322ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 276ms</li>
+            <li>First Contentful Paint: 276ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/privacy (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1005ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/privacy_mobile.png" alt="Screenshot of https://nestfest.app/privacy" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 288ms</li>
+            <li>First Contentful Paint: 288ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/terms (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1216ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/terms_desktop-large.png" alt="Screenshot of https://nestfest.app/terms" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 544ms</li>
+            <li>First Contentful Paint: 544ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/terms (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 992ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/terms_desktop.png" alt="Screenshot of https://nestfest.app/terms" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 248ms</li>
+            <li>First Contentful Paint: 248ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/terms (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1182ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/terms_tablet.png" alt="Screenshot of https://nestfest.app/terms" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 296ms</li>
+            <li>First Contentful Paint: 296ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/terms (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1119ms</span>
+          <span class="metric">Title: NestFest - Competition Platform</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/terms_mobile.png" alt="Screenshot of https://nestfest.app/terms" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.10000000894069672ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 244ms</li>
+            <li>First Contentful Paint: 244ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/rules (desktop-large)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1188ms</span>
+          <span class="metric">Title: Competition Rules</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/rules_desktop-large.png" alt="Screenshot of https://nestfest.app/rules" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 480ms</li>
+            <li>First Contentful Paint: 480ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/rules (desktop)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1191ms</span>
+          <span class="metric">Title: Competition Rules</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/rules_desktop.png" alt="Screenshot of https://nestfest.app/rules" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 544ms</li>
+            <li>First Contentful Paint: 544ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/rules (tablet)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 1055ms</span>
+          <span class="metric">Title: Competition Rules</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/rules_tablet.png" alt="Screenshot of https://nestfest.app/rules" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: 0.09999999403953552ms</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 340ms</li>
+            <li>First Contentful Paint: 340ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+      <div class="page-result">
+        <h3>https://nestfest.app/rules (mobile)</h3>
+        <div class="metrics">
+          <span class="metric">Status: 200</span>
+          <span class="metric">Load Time: 962ms</span>
+          <span class="metric">Title: Competition Rules</span>
+        </div>
+        <div class="screenshot">
+          <img src="screenshots/rules_mobile.png" alt="Screenshot of https://nestfest.app/rules" loading="lazy">
+        </div>
+        <div class="details">
+          <h4>Performance Metrics</h4>
+          <ul>
+            <li>DOM Content Loaded: N/Ams</li>
+            <li>Load Complete: N/Ams</li>
+            <li>First Paint: 320ms</li>
+            <li>First Contentful Paint: 320ms</li>
+          </ul>
+          
+          
+            <h4>Accessibility Issues</h4>
+            <ul><li>No skip links found</li></ul>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    
+        </section>
+
+        <footer style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #6c757d;">
+            <p>Report generated by NestFest Production Analysis Tool</p>
+        </footer>
+    </div>
+</body>
+</html>
