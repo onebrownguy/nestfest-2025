@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Screenshots and test files (keep docs but ignore test artifacts)
+*-test-screenshot.png
+*-error-screenshot.png
+dashboard-test-script.py
+simple-dashboard-test.py
+deep-functionality-test.py
+test-dashboard.js
+test-enhanced-judge-apis.js
+
+# Archive files
+*.zip
+
+# Local Claude settings (keep main config)
+.claude/settings.local.json
+
+# Deployment directories (separate repositories)
+netlify-production/
+vercel-production/
+netlify-deployment/
