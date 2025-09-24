@@ -62,7 +62,7 @@ export default function TeamDiscoverPage() {
       competition: 'Sustainable Business Model Challenge',
       competitionId: '2',
       projectTitle: 'Smart Energy Management System',
-      description: 'We\'re building an AI-powered energy management system for residential buildings to reduce carbon footprint and energy costs.',
+      description: 'We&apos;re building an AI-powered energy management system for residential buildings to reduce carbon footprint and energy costs.',
       lookingFor: 'We need a backend developer with experience in IoT and data analytics. Someone passionate about sustainability and willing to commit 15-20 hours per week.',
       requiredSkills: ['Backend Development', 'IoT', 'Data Analytics', 'Python'],
       currentSize: 2,
@@ -447,7 +447,7 @@ export default function TeamDiscoverPage() {
               </svg>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Post Your Profile</h3>
               <p className="mt-2 text-sm text-gray-600 max-w-sm mx-auto">
-                Create a profile to let teams know about your skills and what you're looking for.
+                Create a profile to let teams know about your skills and what you&apos;re looking for.
               </p>
               <Button className="mt-6 bg-green-600 hover:bg-green-700">
                 Create Profile
