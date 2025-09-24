@@ -372,7 +372,7 @@ export default async function StudentTeamPage() {
                         <span>{new Date(invitation.invitedAt).toLocaleDateString()}</span>
                       </div>
                       <p className="text-sm text-gray-700 bg-gray-50 p-3 rounded-lg">
-                        "{invitation.message}"
+                        &ldquo;{invitation.message}&rdquo;
                       </p>
                     </div>
                     <div className="flex space-x-3 ml-4">
