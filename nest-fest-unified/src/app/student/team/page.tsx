@@ -1,48 +1,34 @@
-import { cookies } from 'next/headers'
-import { redirect } from 'next/navigation'
+'use client'
+
+import { useState, useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
-async function getCurrentUser() {
-  try {
-    const cookieStore = await cookies()
-    const sessionCookie = cookieStore.get('nest-fest-session')
+export default function StudentTeamPage() {
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const [showSuccess, setShowSuccess] = useState(false)
+  const [user] = useState({
+    id: '3',
+    email: 'student@university.edu',
+    name: 'Sample Student',
+    role: 'student',
+    university: 'MIT'
+  }) // Mock user for demo
 
-    if (!sessionCookie) {
-      return null
+  useEffect(() => {
+    if (searchParams.get('created') === 'true') {
+      setShowSuccess(true)
+      // Remove the parameter from URL
+      const newUrl = new URL(window.location.href)
+      newUrl.searchParams.delete('created')
+      router.replace(newUrl.pathname, { scroll: false })
+
+      // Hide success message after 5 seconds
+      setTimeout(() => setShowSuccess(false), 5000)
     }
-
-    const sessionData = JSON.parse(atob(sessionCookie.value))
-
-    // Check if session is expired
-    const sessionAge = Date.now() - sessionData.createdAt
-    if (sessionAge > 24 * 60 * 60 * 1000) {
-      return null
-    }
-
-    // Mock user lookup
-    const mockUsers = [
-      { id: '1', email: 'admin@nestfest.com', name: 'NEST FEST Admin', role: 'admin' },
-      { id: '2', email: 'judge@nestfest.com', name: 'Sample Judge', role: 'judge', university: 'Stanford University' },
-      { id: '3', email: 'student@university.edu', name: 'Sample Student', role: 'student', university: 'MIT' }
-    ]
-
-    return mockUsers.find(u => u.id === sessionData.userId) || null
-  } catch {
-    return null
-  }
-}
-
-export default async function StudentTeamPage() {
-  const user = await getCurrentUser()
-
-  if (!user) {
-    redirect('/')
-  }
-
-  if (user.role !== 'student') {
-    redirect('/dashboard')
-  }
+  }, [searchParams, router])
 
   const myTeams = [
     {
@@ -342,11 +328,30 @@ export default async function StudentTeamPage() {
                 Manage your teams, collaborate on projects, and track progress.
               </p>
             </div>
-            <Button className="bg-blue-600 hover:bg-blue-700">
-              + Create New Team
-            </Button>
+            <Link href="/student/team/create">
+              <Button className="bg-blue-600 hover:bg-blue-700">
+                + Create New Team
+              </Button>
+            </Link>
           </div>
         </div>
+
+        {/* Success Message */}
+        {showSuccess && (
+          <div className="mb-6 bg-green-50 border border-green-200 rounded-lg p-4">
+            <div className="flex items-center">
+              <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <div>
+                <h3 className="text-green-800 font-medium">Team Created Successfully!</h3>
+                <p className="text-green-700 text-sm mt-1">
+                  Your team has been created and invitations have been sent to team members.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Team Invitations */}
         {teamInvitations.length > 0 && (
@@ -536,12 +541,16 @@ export default async function StudentTeamPage() {
               Browse available teams looking for members or create your own team for upcoming competitions.
             </p>
             <div className="flex justify-center space-x-4">
-              <Button className="bg-green-600 hover:bg-green-700">
-                Find Teams to Join
-              </Button>
-              <Button variant="outline">
-                Post Looking for Team
-              </Button>
+              <Link href="/student/team/discover">
+                <Button className="bg-green-600 hover:bg-green-700">
+                  Find Teams to Join
+                </Button>
+              </Link>
+              <Link href="/student/team/discover?tab=post-profile">
+                <Button variant="outline">
+                  Post Looking for Team
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
