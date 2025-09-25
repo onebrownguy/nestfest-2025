@@ -229,9 +229,11 @@ export default async function AdminCompetitionsPage() {
                 Create, configure, and monitor all competitions on the platform.
               </p>
             </div>
-            <Button className="bg-green-600 hover:bg-green-700">
-              + Create New Competition
-            </Button>
+            <Link href="/admin/competitions/create">
+              <Button className="bg-green-600 hover:bg-green-700">
+                + Create New Competition
+              </Button>
+            </Link>
           </div>
         </div>
 
