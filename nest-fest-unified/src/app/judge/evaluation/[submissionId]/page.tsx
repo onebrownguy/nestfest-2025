@@ -636,7 +636,7 @@ export default function JudgeEvaluationPage() {
             Are you ready to submit your evaluation for <strong>{submission.teamName}</strong>?
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Once submitted, you won't be able to modify your scores or feedback. Your final score is <strong>{getTotalScore().toFixed(1)}/10</strong>.
+            Once submitted, you won&apos;t be able to modify your scores or feedback. Your final score is <strong>{getTotalScore().toFixed(1)}/10</strong>.
           </Typography>
         </DialogContent>
         <DialogActions>
