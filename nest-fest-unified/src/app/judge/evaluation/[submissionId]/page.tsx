@@ -5,7 +5,6 @@ import {
   Box,
   Container,
   Typography,
-  Grid,
   Card,
   CardContent,
   Button,
@@ -265,9 +264,9 @@ export default function JudgeEvaluationPage() {
       </AppBar>
 
       <Container maxWidth="xl" sx={{ mt: 3, mb: 3 }}>
-        <Grid container spacing={4}>
+        <div className="grid grid-cols-12 gap-6">
           {/* Left Panel - Submission Details */}
-          <Grid item xs={12} lg={4}>
+          <div className="col-span-12 lg:col-span-4">
             <Card elevation={2} sx={{ position: 'sticky', top: 20 }}>
               <CardContent>
                 <Box display="flex" alignItems="center" gap={2} mb={3}>
@@ -354,10 +353,10 @@ export default function JudgeEvaluationPage() {
                 </Box>
               </CardContent>
             </Card>
-          </Grid>
+          </div>
 
           {/* Right Panel - Evaluation Interface */}
-          <Grid item xs={12} lg={8}>
+          <div className="col-span-12 lg:col-span-8">
             <Card elevation={2}>
               <CardContent>
                 {/* Progress Stepper */}
@@ -380,8 +379,8 @@ export default function JudgeEvaluationPage() {
                       Please thoroughly review all submission materials before proceeding with evaluation.
                     </Alert>
 
-                    <Grid container spacing={3}>
-                      <Grid item xs={12} md={6}>
+                    <div className="grid grid-cols-12 gap-4">
+                      <div className="col-span-12 md:col-span-6">
                         <Paper variant="outlined" sx={{ p: 3, textAlign: 'center' }}>
                           <PdfIcon sx={{ fontSize: 48, color: 'error.main', mb: 2 }} />
                           <Typography variant="h6" gutterBottom>
@@ -394,9 +393,9 @@ export default function JudgeEvaluationPage() {
                             View Document
                           </Button>
                         </Paper>
-                      </Grid>
+                      </div>
 
-                      <Grid item xs={12} md={6}>
+                      <div className="col-span-12 md:col-span-6">
                         <Paper variant="outlined" sx={{ p: 3, textAlign: 'center' }}>
                           <PlayArrowIcon sx={{ fontSize: 48, color: 'primary.main', mb: 2 }} />
                           <Typography variant="h6" gutterBottom>
@@ -409,8 +408,8 @@ export default function JudgeEvaluationPage() {
                             Watch Demo
                           </Button>
                         </Paper>
-                      </Grid>
-                    </Grid>
+                      </div>
+                    </div>
 
                     <Box display="flex" justifyContent="flex-end" mt={4}>
                       <Button
@@ -617,8 +616,8 @@ export default function JudgeEvaluationPage() {
                 )}
               </CardContent>
             </Card>
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </Container>
 
       {/* Submit Confirmation Dialog */}
